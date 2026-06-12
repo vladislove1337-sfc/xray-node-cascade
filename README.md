@@ -28,11 +28,29 @@ Internet
 
 ## Установка
 
+### Быстрая установка (рекомендуется)
+
 ```bash
-apt update && apt install -y unzip
-unzip Xray-Cascade-v1.zip
-cd Xray-Cascade-v1
+bash <(curl -Ls https://raw.githubusercontent.com/vladislove1337-sfc/xray-node-cascade/main/install.sh)
+```
+
+После установки:
+
+```bash
+xcascade
+```
+
+---
+
+### Ручная установка
+
+```bash
+git clone https://github.com/vladislove1337-sfc/xray-node-cascade.git
+
+cd xray-node-cascade
+
 chmod +x install.sh xcascade.sh
+
 ./install.sh
 ```
 
