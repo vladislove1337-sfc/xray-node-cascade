@@ -28,11 +28,14 @@ fi
 
 mkdir -p "$APP_DIR" /etc/xcascade/sub
 
-if [[ -f "./$SCRIPT_NAME" ]]; then
-  cp "./$SCRIPT_NAME" "$APP_DIR/$SCRIPT_NAME"
-else
-  echo "ERROR: $SCRIPT_NAME not found in current directory"
-  exit 1
+echo "[+] Downloading Xray Cascade menu..."
+
+curl -Ls "https://raw.githubusercontent.com/vladislove1337-sfc/xray-node-cascade/main/xcascade.sh" \
+    -o "$APP_DIR/$SCRIPT_NAME"
+
+if [[ ! -f "$APP_DIR/$SCRIPT_NAME" ]]; then
+    echo "Failed to download xcascade.sh"
+    exit 1
 fi
 
 chmod +x "$APP_DIR/$SCRIPT_NAME"
