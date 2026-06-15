@@ -1,5 +1,13 @@
 # Xray Cascade Manager v1.0
 
+<p align="center">
+  <img src="banner (2).png" width="800">
+</p>
+
+<h1 align="center">
+SingBox Node Cascade Manager
+</h1>
+
 Менеджер двухсерверного каскада Xray:
 
 ```text
