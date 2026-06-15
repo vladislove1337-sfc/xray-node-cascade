@@ -1,7 +1,7 @@
 # Xray Cascade Manager v1.0
 
 <p align="center">
-  <img src="assets/banner (2).png" width="800">
+  <img src="xray_banner.png" width="800">
 </p>
 
 <h1 align="center">
