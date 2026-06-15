@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-SingBox Node Cascade Manager
+Xray Cascade Manager
 </h1>
 
 Менеджер двухсерверного каскада Xray:
